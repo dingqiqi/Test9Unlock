@@ -9,12 +9,15 @@
         mList = new ArrayList<>();
         mCircleList = new ArrayList<>();
         mSelectList = new ArrayList<>();
-        //初始化九个圆均未选中
+        
+        //初始化九个圆均未选中
+        
         for (int i = 0; i < 9; i++) {
             mSelectList.add(false);
         }
 
         //单个圆圈所处区域高度宽度
+        
         int height = getMeasuredHeight() / 3 * 2 / 3;
         int width = getMeasuredWidth() / 3;
 
@@ -28,6 +31,7 @@
         }
 
         //初始化圆圈区域，圆心点
+        
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 int circleX = width * j + width / 2;
