@@ -4,11 +4,12 @@
 ![](https://github.com/dingqiqi/Test9Unlock/tree/master/gif/a.gif)
 
 重要代码
-{
+       
+        
         mList = new ArrayList<>();
         mCircleList = new ArrayList<>();
         mSelectList = new ArrayList<>();
-        //初始化九个圆均为选中
+        //初始化九个圆均未选中
         for (int i = 0; i < 9; i++) {
             mSelectList.add(false);
         }
@@ -32,7 +33,7 @@
                 int circleX = width * j + width / 2;
                 int circleY = initHeight + height * i + height / 2;
                 //*3是为了放大范围（为了更好的体验）
-                Rect rect = new Rect(circleX - 3 * mCircleRadius, circleY - 3 * mCircleRadius, circleX + 3 * mCircleRadius, circleY + 3 * mCircleRadius);
+                Rect rect = new Rect(circleX - 3 * mCircleRadius, circleY - 3 * mCircleRadius, circleX + 3 * mCircleRadius,                             circleY + 3 * mCircleRadius);
                 mList.add(rect);
 
                 CircleXY circleXY = new CircleXY(circleX, circleY);
@@ -40,4 +41,4 @@
             }
         }
 
-    }
+    
