@@ -2,7 +2,7 @@
 
 效果图
 
-![Alt text](https://github.com/dingqiqi/Test9Unlock/tree/master/gif/a.gif)
+![text](https://github.com/dingqiqi/Test9Unlock/tree/master/gif/a.gif)
 
 重要代码
        
