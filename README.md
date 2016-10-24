@@ -2,7 +2,7 @@
 
 效果图
 
-![text](https://github.com/dingqiqi/Test9Unlock/tree/master/gif/a.gif)
+![](gif/a.gif)
 
 重要代码
        
